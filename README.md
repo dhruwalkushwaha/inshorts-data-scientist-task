@@ -80,10 +80,3 @@ AUC (ML model): 0.9655
 Coverage: Top-50 recommendations generated per user
 
 Dual approaches: Balanced ML precision with a lightweight rule-based fallback
-
-Next Steps and Discussion
-- A/B Testing: Deploy both algorithms to measure live click-through rates.
-
-- Optimization: Incorporate collaborative filtering or deep learning for richer signals.
-
-- Scalability: Containerize model and endpoint for real-time serving.
