@@ -96,12 +96,12 @@ Rule-Based Backup	Enabled (Location + Popularity)
 Coverage: 50 articles per user (guaranteed)
 
 5. Notes
-a. All training and inference were conducted in Google Colab (Free Tier, 12.67 GB RAM).
+    a. All training and inference were conducted in Google Colab (Free Tier, 12.67 GB RAM).
 
-b. The pipeline was optimized for memory efficiency via batch processing and minimal joins.
+    b. The pipeline was optimized for memory efficiency via batch processing and minimal joins.
 
-c. You may retain the raw notebook state to reflect debugging and realistic dev iterations.
+    c. You may retain the raw notebook state to reflect debugging and realistic dev iterations.
 
 6. Branch Info
 
-You're on the setup-colab branch, optimized for Colab. The main branch contains the initial skeleton.
+   You're on the setup-colab branch, optimized for Colab. The main branch contains the initial skeleton.
