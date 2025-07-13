@@ -8,11 +8,10 @@ inshorts-data-scientist-task/
 ├── notebooks/
 │ └── 04_modeling_and_inference.ipynb # Full modeling pipeline (cleaned)
 ├── user_features.csv # Engineered user-level features
-├── content_features.csv # Engineered content-level features
-├── submission.csv # Top-50 ML-based recommendations
-│ ↳ Download link
-├── top50_rule_based.csv # Rule-based fallback recommendations
-│ ↳ Download link
+├── content_features.csv # Engineered content-level features 
+├── submission.csv # Top-50 ML-based recommendations (https://drive.google.com/file/d/1izRLz3Wof6aMPYB0IzMZNjoFAVLqmFjC/view?usp=sharing)
+├── top50_rule_based.csv # Top-50 rule-based fallback recommendations (https://drive.google.com/file/d/1YR8Xr5OL979XZAfT6CtQJ644AxnzBGNl/view?usp=sharing)
+
 ├── training_data.csv # Generated click/non-click labeled pairs
 ├── test_candidates.csv # User-content pairs for scoring
 ├── README.md # Project documentation
@@ -93,19 +92,19 @@ submission.csv → ML model top-50/user
 
 top50_rule_based.csv → Rule-based fallback top-50/user
 
-4. Results
-Metric	Value
-ML Model AUC Score	0.9653
-Rule-Based Backup	Enabled (Location + Popularity)
-Coverage: 50 articles per user (guaranteed)
+Results
+  Metric	Value
+  ML Model AUC Score	0.9653
+  Rule-Based Backup	Enabled (Location + Popularity)
+  Coverage: 50 articles per user (guaranteed)
 
-5. Notes
+Notes
     a. All training and inference were conducted in Google Colab (Free Tier, 12.67 GB RAM).
 
     b. The pipeline was optimized for memory efficiency via batch processing and minimal joins.
 
     c. You may retain the raw notebook state to reflect debugging and realistic dev iterations.
 
-6. Branch Info
+Branch Info
 
    You're on the setup-colab branch, optimized for Colab. The main branch contains the initial skeleton.
