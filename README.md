@@ -4,7 +4,7 @@ This repository contains the solution to the Inshorts Data Scientist Task, where
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ├── notebooks/
 │ └── 04_modeling_and_inference.ipynb # Full modeling pipeline (cleaned)
 ├── user_features.csv # Engineered user-level features
@@ -103,4 +103,5 @@ b. The pipeline was optimized for memory efficiency via batch processing and min
 c. You may retain the raw notebook state to reflect debugging and realistic dev iterations.
 
 Branch Info
+
 You're on the setup-colab branch, optimized for Colab. The main branch contains the initial skeleton.
