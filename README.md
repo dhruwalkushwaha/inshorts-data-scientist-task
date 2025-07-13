@@ -4,18 +4,18 @@ This repository contains the solution to the Inshorts Data Scientist Task, where
 
 ---
 
+## Project Structure
+
 inshorts-data-scientist-task/
 ├── notebooks/
-│ └── 04_modeling_and_inference.ipynb # Full modeling pipeline (cleaned)
+│   └── 04_modeling_and_inference.ipynb # Full modeling pipeline (cleaned)
 ├── user_features.csv # Engineered user-level features
-├── content_features.csv # Engineered content-level features 
+├── content_features.csv # Engineered content-level features
 ├── submission.csv # Top-50 ML-based recommendations (https://drive.google.com/file/d/1izRLz3Wof6aMPYB0IzMZNjoFAVLqmFjC/view?usp=sharing)
 ├── top50_rule_based.csv # Top-50 rule-based fallback recommendations (https://drive.google.com/file/d/1YR8Xr5OL979XZAfT6CtQJ644AxnzBGNl/view?usp=sharing)
-
 ├── training_data.csv # Generated click/non-click labeled pairs
 ├── test_candidates.csv # User-content pairs for scoring
-├── README.md # Project documentation
-
+└── README.md # Project documentation
 ---
 
 ##  Task Objective
