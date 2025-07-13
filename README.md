@@ -3,7 +3,6 @@
 This repository contains the solution to the Inshorts Data Scientist Task, where we build and evaluate two robust recommendation systems for news articles: a machine learning model and a rule-based approach using user behavior and content popularity.
 
 ---
-
 inshorts-data-scientist-task/
 ├── notebooks/
 │ └── 04_modeling_and_inference.ipynb # Full modeling pipeline (cleaned)
