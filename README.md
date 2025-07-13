@@ -73,35 +73,35 @@ cd inshorts-data-scientist-task
 Open the final notebook in Colab:
 notebooks/04_modeling_and_inference.ipynb
 
-Run all cells in order, including:
+2. Run all cells in order, including:
 
-a. Data loading & cleaning
+  a. Data loading & cleaning
 
-b. Feature engineering
+  b. Feature engineering
 
-c. Training & prediction
+  c. Training & prediction
 
-d. Generating both CSV outputs
+  d. Generating both CSV outputs
 
-Check outputs:
+3. Check outputs:
 
 submission.csv → ML model top-50/user
 
 top50_rule_based.csv → Rule-based fallback top-50/user
 
-Results
+4. Results
 Metric	Value
 ML Model AUC Score	0.9653
 Rule-Based Backup	Enabled (Location + Popularity)
 Coverage: 50 articles per user (guaranteed)
 
-Notes
+5. Notes
 a. All training and inference were conducted in Google Colab (Free Tier, 12.67 GB RAM).
 
 b. The pipeline was optimized for memory efficiency via batch processing and minimal joins.
 
 c. You may retain the raw notebook state to reflect debugging and realistic dev iterations.
 
-Branch Info
+6. Branch Info
 
 You're on the setup-colab branch, optimized for Colab. The main branch contains the initial skeleton.
