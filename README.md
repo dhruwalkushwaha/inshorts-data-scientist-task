@@ -6,7 +6,7 @@ This repository contains the solution to the Inshorts Data Scientist Task, where
 
 ## Project Structure
 
-inshorts-data-scientist-task/
+```inshorts-data-scientist-task/
 ├── notebooks/
 │   └── 04_modeling_and_inference.ipynb # Full modeling pipeline (cleaned)
 ├── user_features.csv # Engineered user-level features
