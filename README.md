@@ -64,7 +64,7 @@ Design and implement two recommendation algorithms that leverage:
 
 ---
 
-## 🛠 How to Run (Colab-Friendly)
+##  How to Run (Colab-Friendly)
 
 1. Clone this repo & navigate:
 In bash:
