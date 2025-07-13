@@ -72,7 +72,9 @@ Design and implement two recommendation algorithms that leverage:
 1. Clone this repo & navigate:
 In bash:
 git clone https://github.com/dhruwalkushwaha/inshorts-data-scientist-task.git
+
 cd inshorts-data-scientist-task
+
 Open the final notebook in Colab:
 notebooks/04_modeling_and_inference.ipynb
 
