@@ -1,5 +1,5 @@
-# inshorts-data-scientist-task
-# Inshorts Data Scientist Task – Click Prediction & Recommendations
+# news-recommendation-system
+# Click Prediction & Recommendations
 
 This repository contains my end-to-end solution for the Inshorts Data Scientist challenge. I approached the task using two strategies:
 
